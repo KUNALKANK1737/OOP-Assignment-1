@@ -37,14 +37,20 @@ class student
 student :: student ()
 {
     personal_info p;
-    name="Rushank Ambekar";
-    p.roll=56;
+    cout<<"Enter the Name :";
+    cin>>name;
+    cout<<"Enter the roll number :";
+    cin>>roll;
     cout<<"Enter the class of the student : ";
     cin>>clas;
     cout<<"Enter the division of the student : ";
     cin>>divi;
-    dob="25/01/2033";
-    bg="A +ve";
+    cout<<"Enter the date of birth :";
+    
+    cin>>dob;
+    cout<<"Enter the blood group :";
+    
+    cin>>bg;
     cout<<"Enter the mobile number of the student : ";
     cin>>mob;
     cout<<"Enter the address of the student : ";
